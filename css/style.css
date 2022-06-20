@@ -40,6 +40,7 @@ body::-webkit-scrollbar-thumb:hover {
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300 !important;
+  overflow-x: hidden;
 }
 
 /* Color */
@@ -147,6 +148,25 @@ body {
   transform: translate3d(0, 0, 30px) scale(1.1) rotate(-3deg);
   top: 20px;
   opacity: 1;
+}
+
+@media (max-width: 767.98px) {
+  .foto-role {
+    font-size: calc(32px + (56 - 32) * ((100vw - 300px) / (1600 - 300)));
+    font-family: "Satoshi-Black";
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 30px;
+    transform: translate3d(0, 0, 30px) scale(0.1) rotate(0deg);
+    transition: 0.3s ease-in-out;
+  }
+  .foto-wrap:hover .foto-role {
+    transform: translate3d(0, 0, 30px) scale(1.1) rotate(-3deg);
+    top: 20px;
+    opacity: 1;
+  }
 }
 
 .foto-portrait {
