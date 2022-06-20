@@ -167,16 +167,6 @@ body {
     top: 20px;
     opacity: 1;
   }
-
-  .form-email {
-    margin-bottom: 10px;
-    color: #ededed;
-    padding: 0.5em 3em 0.5em 0.5em;
-    box-sizing: border-box;
-    background-color: #0e0e0e;
-    border: 1px solid #ededed50;
-    border-radius: 1rem;
-  }
 }
 
 .foto-portrait {
@@ -199,7 +189,7 @@ body {
 
 .form-email {
   color: #ededed;
-  padding: 1em 7em 1em 1em;
+  padding: 1em 3em 1em 1em;
   box-sizing: border-box;
   background-color: #0e0e0e;
   border: 1px solid #ededed50;
