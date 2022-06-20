@@ -9,3 +9,10 @@ VanillaTilt.init(document.querySelectorAll(".foto-wrap"), {
   gyroscopeMinAngleY: -45,
   gyroscopeMaxAngleY: 45,
 });
+
+// AOS
+AOS.init();
+
+AOS.init({
+  once: true,
+});
