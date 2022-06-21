@@ -1,14 +1,3 @@
-// Preloader
-var loader = document.querySelector(".loader");
-var konten = document.querySelector(".konten");
-
-window.addEventListener("load", vanish);
-
-function vanish() {
-  loader.classList.add("disappear");
-  konten.classList.add("overflow-scroll");
-}
-
 // Tilt JS
 VanillaTilt.init(document.querySelectorAll(".foto-wrap"), {
   max: 10,
